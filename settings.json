@@ -1,0 +1,28 @@
+{
+    // turn off the TS/JS organize-imports-on-save behavior globally
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never",
+      "source.fixAll.eslint": "explicit"
+    },
+  
+    // also disable the built-in TS preferences (just to be sure)
+    "typescript.preferences.organizeImportsOnSave": false,
+    "javascript.preferences.organizeImportsOnSave": false,
+  
+    // your existing formatter settings
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }
+  
