@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Cocktails from "./Cocktails";
+import About from "./About";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Cocktails />
+      <About />
     </main>
   );
 };
