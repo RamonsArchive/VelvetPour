@@ -10,6 +10,8 @@ import Hero from "./Hero";
 import Cocktails from "./Cocktails";
 import About from "./About";
 import Art from "./Art";
+import Menu from "./Menu";
+import Contact from "./Contact";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -21,6 +23,8 @@ const App = () => {
       <Cocktails />
       <About />
       <Art />
+      <Menu />
+      <Contact />
     </main>
   );
 };
